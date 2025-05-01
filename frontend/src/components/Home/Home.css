@@ -1,0 +1,82 @@
+.home{
+    max-width:100%;
+    width:80vw;
+    display:flex;
+    flex-direction:column;
+    align-items:cente;
+    padding:4vmax;
+    gap:2vmax
+}
+.search{
+    display:flex;
+    gap:1vmax;
+    align-items:center
+}
+.search >input{
+   outline:none;
+   padding:1vmax;
+   width:20vw;
+   border:1px solid rgb(155, 153, 153)
+}
+.search>button{
+    padding:1vmax;
+    background-color:tomato;
+    outline:none;
+    border:none;
+    color:white;
+    font-size:1vmax
+}
+.homeone>button{
+    padding:1vmax;
+    background-color:royalblue;
+    outline:none;
+    border:none;
+    color:white;
+    font-size:1vmax
+}
+.filterbygenre{
+    
+}
+.homeone{
+    display:flex;
+    gap:1vmax;
+    align-items:center;
+    justify-content:space-around
+}
+.sortbyvalue{
+    display:flex;
+    flex-direction:column;
+    gap:1vmax;
+    align-items:center
+}
+.sortbyvalue>svg{
+    transition:all 0.5s;
+    :hover{
+        color:tomato;
+        cursor:pointer
+    }
+}
+.pagination{
+    display:flex;
+    align-items:center;
+    border:1px solid rgb(149, 148, 148);
+    width:10vw;
+    padding:0.5vmax;
+    margin:auto;
+    padding-left:1.7vma;
+    margin-top:1vmax;
+    justify-content:space-around;
+    height:5vh
+}
+.pagination>p{
+    font-size:2vmax;
+    border-left:1px solid rgb(149, 148, 148);
+    border-right:1px solid rgb(149, 148, 148);
+    padding-inline:2vmax;
+    padding:0.5vmax;
+    height:100%;
+    background-color:royalblue;
+    width:5vw;
+    text-align:center;
+    color:white
+}

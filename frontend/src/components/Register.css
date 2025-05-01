@@ -1,0 +1,51 @@
+
+.signupform{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:re;
+    gap:1vmax;
+    height:70vh;
+    align-items:center;
+    width:50%;
+    margin:auto;
+    margin-top: 5vmax
+}
+.signupform > input, select{
+    display:flex;
+    flex-direction:column;
+    padding:0.7vmax;
+    width:50%;
+    outline:none;
+    border:1px solid rgb(133, 131, 131)
+}
+.signupform>select{
+    width:26vw
+}
+.forgot{
+    margin-left:19vmax;
+    cursor:pointer
+}
+.forgot:hover{
+    color: tomato
+}
+.myavatar{
+    display: flex;
+    align-items:center;
+    margin-left:-8vmax;
+   
+}
+.mybtn1{
+    outine:none;
+    border:none;
+    padding: 0.5vmax;
+    background-color: green;
+    transition: all 0.5s;
+    width: 26vw;
+    font-size: 1vmax;
+    color:white
+}
+.mybtn1:hover{
+    cursor:pointer;
+   
+}
